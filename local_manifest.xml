@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience/thirteen"
+          revision="thirteen" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="thirteen" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="thirteen" />
+
+  <remote name="thankyoumario"
+          fetch="https://github.com/ThankYouMario"
+          revision="topaz" />
+
+  <remote name="aospa-juice"
+          fetch="https://github.com/aospa-juice" />
+
+  <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
+  <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixel" />
+  <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pixel" />
+  <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pixel" />
+
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pixel" />
+
+  <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="aospa-juice" revision="thirteen" />
+
+  <project path="device/qcom/common" name="device_qcom_common" remote="pixel-devices" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="thankyoumario" />
+
+</manifest>
