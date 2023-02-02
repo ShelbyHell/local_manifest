@@ -31,6 +31,9 @@
   
   <remote name="shelby"
           fetch="https://github.com/ShelbyHell" />
+  
+    <remote name="aospa"
+          fetch="https://github.com/aospa" />
 
   <!-- Hardware for bengal -->
   <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
@@ -49,7 +52,7 @@
   <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="aospa-juice" revision="thirteen" />
 
   <!-- CAF -->
-  <project path="device/qcom/qssi" name="vendor_qcom_opensource_commonsys_dpm" remote="pixel" />
+  <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="aospa" revision="topaz" />
   <project path="device/qcom/common" name="device_qcom_common" remote="pixel-devices" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="thankyoumario" />
 
