@@ -46,11 +46,6 @@
   <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pixel" />
 
-  <!-- DT/KT/VT -->
-  <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="aospa-juice" revision="thirteen" />
-  <project path="kernel/xiaomi/juice" name="sunrise_kernel_juice" remote="shelby" revision="topaz" />
-  <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="aospa-juice" revision="thirteen" />
-
   <!-- CAF -->
   <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="aospa" revision="topaz" />
   <project path="device/qcom/common" name="device_qcom_common" remote="pixel-devices" />
